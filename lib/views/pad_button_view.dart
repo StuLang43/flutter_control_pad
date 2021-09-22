@@ -37,7 +37,7 @@ class PadButtonsView extends StatelessWidget {
   PadButtonsView({
     this.size,
     this.buttons = const [
-      PadButtonItem(index: 0, buttonText: "A"),
+      PadButtonItem(index: 0, buttonText: "E"),
       PadButtonItem(index: 1, buttonText: "B", pressedColor: Colors.red),
       PadButtonItem(index: 2, buttonText: "C", pressedColor: Colors.green),
       PadButtonItem(index: 3, buttonText: "D", pressedColor: Colors.yellow),
