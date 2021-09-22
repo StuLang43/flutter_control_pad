@@ -39,7 +39,7 @@ class PadButtonsView extends StatelessWidget {
     this.buttons = const [
       PadButtonItem(index: 0, buttonText: "F"),
       PadButtonItem(index: 1, buttonText: "B", pressedColor: Colors.red),
-      PadButtonItem(index: 2, buttonText: "C", pressedColor: Colors.green),
+      PadButtonItem(index: 2, buttonText: "Z", pressedColor: Colors.green),
       PadButtonItem(index: 3, buttonText: "D", pressedColor: Colors.yellow),
     ],
     this.padButtonPressedCallback,
